@@ -8,6 +8,7 @@ let lastPinnedTaskOriginalIndex = null; // for preserving the last pinned item's
 /* ---------------------------------------- LOAD from SESSIION Storage ---------------------------------------- */
 function loadTasks() {
   let tasks = JSON.parse(sessionStorage.getItem("tasks")) || [];
+  // for LOCAL STORAGE use: localStorage.getItem
 
   tasks.forEach(task => {
     let newTask = createTaskElement(task);
@@ -46,7 +47,7 @@ function saveTasks() {
   });
 
   sessionStorage.setItem("tasks", JSON.stringify(tasks));
-
+// for LOCAL STORAGE use : localStorage.setItem
   taskElements.forEach(moveUpDownState);
 }
 
