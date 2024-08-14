@@ -1,5 +1,6 @@
 
-To-Do List Application, is a streamlined and easy-to-use application developed using HTML, CSS, Bootstrap, and JavaScript.
+To-Do List Application, is an easy-to-use task management application.
+
 
 **Project Description**
 
