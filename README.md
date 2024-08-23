@@ -1,4 +1,4 @@
-
+# To-Do List Project
 To-Do List Application, is an easy-to-use task management application.
 
 
@@ -20,3 +20,4 @@ It employs CRUD (Create, Read, Update, Delete) operations to offer a robust and 
 **Further features**
 - **Session Storage:** The application uses session storage for temporary data persistence, though the code is designed for easy modification to utilize local storage if desired.
 - **Comments Added to Codes:** The code is well-commented to ensure clarity and facilitate future maintenance or enhancements.
+- **Deploy:** Deployed using firebase.
